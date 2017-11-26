@@ -9,6 +9,7 @@ To-do:
 - When the return key is pressed, use the value that's typed by the user to call the TMDB API
   (already done), and store the first result in state. Pass this object (via props) to the Movie
   component (already written, but hard-coded), and display the movie's poster, backdrop, title,
+  rating (average vote) and overview. In addition, clear out the existing search term so that
   it reads "Enter a movie name!" instead of the movie you just searched for.
 Hints:
 - Read the React documentation on the TextInput component –
